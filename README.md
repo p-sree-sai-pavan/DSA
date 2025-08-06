@@ -9,84 +9,73 @@ This repository contains my solutions to various Data Structures and Algorithms 
 
 ### LeetCode
 - **1.twoSum** - Two Sum problem solution
+- **1.twoSum.c** - Two Sum problem in C
 - **palindrome.cpp** - Palindrome problem solution
 - **prob_1.c** - Problem 1 solution
 - **prob_3.c** - Problem 3 solution
 
-### Striver's Problems
-- **Recursion Problems:**
-  - `1toNrecurssion.cpp` - Print 1 to N using recursion
-  - `Nto1recurssion.cpp` - Print N to 1 using recursion
-  - `factorialofN.cpp` - Factorial calculation
-  - `fibonachi.cpp` - Fibonacci series
+### Strivers Problems
+- **1toNrecurssion.cpp** - Recursion problems
+- **armstrongnumber.cpp** - Armstrong number solution
+- **chreckpalindrome.cpp** - Palindrome checking
+- **digits.cpp** - Digit manipulation
+- **divisors.cpp** - Divisors problems
+- **factorialofN.cpp** - Factorial calculation
+- **fibonachi.cpp** - Fibonacci sequence
+- **isPrime.cpp** - Prime number checking
+- **largestInArray.cpp** - Finding largest element
+- **largestinSets** - Largest in sets
+- **Nto1recurssion.cpp** - N to 1 recursion
+- **prob1.cpp** - Problem 1
+- **prob2.cpp** - Problem 2
+- **prob3.cpp** - Problem 3
+- **prob4.cpp** - Problem 4
+- **reverseArray.cpp** - Array reversal
+- **revNum.cpp** - Number reversal
+- **secondlargestInArray.cpp** - Second largest element
+- **sumofN.cpp** - Sum of N numbers
 
-- **Array Problems:**
-  - `largestInArray.cpp` - Find largest element in array
-  - `secondlargestInArray.cpp` - Find second largest element
-  - `reverseArray.cpp` - Reverse array elements
-  - `sumofN.cpp` - Sum of N numbers
-
-- **Number Problems:**
-  - `armstrongnumber.cpp` - Armstrong number check
-  - `isPrime.cpp` - Prime number check
-  - `revNum.cpp` - Reverse a number
-  - `digits.cpp` - Count digits in number
-  - `divisors.cpp` - Find divisors of a number
-
-- **String Problems:**
-  - `chreckpalindrome.cpp` - Check if string is palindrome
-  - `StringPalendrome.cpp` - String palindrome check
-
-- **Other Problems:**
-  - `pairs.cpp` - Find pairs
-  - `prob1.cpp`, `prob2.cpp`, `prob3.cpp`, `prob4.cpp` - Various practice problems
-
-### Striver's Lessons
-- **basics.cpp** - Basic programming concepts
-- **Recurssions.cpp** - Recursion examples
+### Strivers Lessons
+- **basics.cpp** - Basic concepts
+- **pairs.cpp** - Pair problems
+- **prob_1.cpp** - Problem 1
+- **Recurssions.cpp** - Recursion concepts
 - **strings.cpp** - String manipulation
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/p-sree-sai-pavan/DSA.git
-   cd DSA
-   ```
+1. Clone this repository
+2. Navigate to the specific problem directory
+3. Compile and run the solution
 
-2. Compile and run C++ files:
-   ```bash
-   g++ filename.cpp -o filename
-   ./filename
-   ```
+### Compiling C++ files
+```bash
+g++ filename.cpp -o filename
+./filename
+```
 
-3. Compile and run C files:
-   ```bash
-   gcc filename.c -o filename
-   ./filename
-   ```
+### Compiling C files
+```bash
+gcc filename.c -o filename
+./filename
+```
 
 ## 📝 Notes
 
-- All solutions are implemented in C++ and C
-- Executable files (.exe) are included for Windows
-- Solutions focus on optimal time and space complexity
-- Minimal comments for efficiency
+- Solutions are organized by platform and topic
+- Each solution includes comments explaining the approach
+- Some problems have multiple solutions in different languages
 
-## 🔗 Platforms
+## 🎯 Platforms
 
-- [LeetCode](https://leetcode.com/)
-- [Codeforces](https://codeforces.com/)
-- Striver's DSA Sheet
+- **LeetCode** - Algorithm and data structure problems
+- **Codeforces** - Competitive programming problems
+- **Striver's Problems** - Practice problems from Striver's course
 
 ## 📊 Progress
 
-- ✅ Basic recursion problems
-- ✅ Array manipulation
-- ✅ Number theory problems
-- ✅ String problems
-- 🔄 Advanced algorithms (in progress)
+This repository tracks my progress in learning and practicing DSA concepts. Each solution represents a step forward in understanding algorithms and data structures.
 
 ---
 
-*Happy Coding! 🎉* 
+*Happy coding! 🚀* 
