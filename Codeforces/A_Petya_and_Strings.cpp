@@ -1,5 +1,7 @@
 #include<iostream>
 #include<vector>
+#include <algorithm>
+#include <cctype>
 using namespace std;
 
 int main(){
@@ -9,13 +11,22 @@ int main(){
     string a;
     string b;
     cin >> a >> b;
-    if(a == b) cout << 0;
+    transform(a.begin(), a.end(), a.begin(), ::tolower);
+    transform(b.begin(), b.end(), b.begin(), ::tolower);
+    if(a == b){
+        cout << 0;
+        return 0;
+    } 
     else {
         for(int i=0; i<a.size(); i++){
-            a[i] = tolower((unsigned char)a[i]);
-            b[i] = tolower((unsigned char)b[i]);
-            if(a[i]> b[i]) cout << 1;
-            if(a[i]< b[i]) cout << -1;
+            if(a[i]> b[i]){
+                cout << 1;
+                return 0;
+            } 
+            if(a[i]< b[i]){
+                cout << -1;
+                return 0;
+            } 
         }
     }
     return 0;
